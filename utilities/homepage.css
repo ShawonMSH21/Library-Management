@@ -1,0 +1,74 @@
+body {
+    height: 100vh;
+    background: url('https://s3-alpha-sig.figma.com/img/7a98/3862/99b343de1fa84384fe53858b836ff780?Expires=1736121600&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=pPInpF3ptwK4KHO7rqMVRi5NxaGOr6UJjNX23anMvWWNlNQGvPCjQS6EnPxdTQvLDsKHvz4uC5oshw11RvIQynQ~Qdp6v90fYmyZ9m0li1rXvYpTTi5AG1H~gxy82DB58PcHLsIICansO7dnfA5Wplqt1vfvAUWt9eqQED5YycwqluVQU2jr5NhdF-x7XWMTKvm~HcdwsOl8CR1AzHz7c6ENDenRqP4cAOuWQMgvIyClsbQT5m2oSaQqHSPzkW~yFWykPispBZ2aCNq~IGQpN57Hx7A~vzmOLvwVuu8kIlkRkbQ0FaWGCMHYcvMrlA6tm0iiUNEn9Loe96JTtILVqA__') no-repeat center center fixed;
+    background-size: cover;
+  }
+
+  .sidebar, .content {
+    height: 100vh;
+    overflow-y: auto;
+  }
+
+  .sidebar {
+    background-color: #00A54F;;
+    color: white;
+  }
+
+  .sidebar .nav-link {
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+  }
+
+  .sidebar .nav-link:hover {
+    background-color: #495057;
+    transform: scale(1.05);
+  }
+
+  .sidebar .nav-link.active {
+    background-color: #ff6f00;
+  }
+
+  .sidebar .nav-link i {
+    margin-right: 10px;
+  }
+
+  .content {
+    display: flex;
+    justify-content: right;
+  }
+  .content .banner {
+    height: 150px;
+    width: 350px;
+    background-color: #00a550e6;
+    margin: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-size: 1.5rem;
+  }
+
+  .logo-bar {
+    height: 200px;
+    background-color: #00A54F;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 15px;
+  }
+
+  .logo-bar img {
+    height: 146px;
+    margin-right: 10px;
+  }
+
+  .banner-logo{
+    background-color: white;
+    border-radius: 5px;
+  }
