@@ -1,0 +1,95 @@
+body {
+    height: 100vh;
+    background-color: #00a54f;
+    display: flex;
+  }
+  
+  .uni-logo{
+    height: 146px;
+}
+
+  .sidebar {
+    width: 250px;
+    background-color:#00a54f;
+    color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 4px 0 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .sidebar h3 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .sidebar h3 img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .sidebar .nav-link {
+    color: white;
+    margin: 10px 0;
+    text-align: left;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  .sidebar .nav-link.active {
+    background-color: #0056b3;
+  }
+
+  .sidebar .nav-link:hover {
+    background-color: #004080;
+    transform: scale(1.05);
+  }
+
+  .sidebar .nav-link i {
+    margin-right: 10px;
+  }
+
+  .form-container {
+    flex-grow: 1;
+    padding: 30px;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+  }
+
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+
+  .form-control {
+    margin-bottom: 15px;
+    border-radius: 5px;
+    transition: 0.3s;
+  }
+
+  .form-control:focus {
+    border-color: #00a54f;
+    box-shadow: 0 0 5px #00a54f;
+  }
+
+  .input-group-text {
+    background-color: #00a54f;
+    color: white;
+    border-radius: 5px 0 0 5px;
+  }
+
+  .btn-primary {
+    width: 100%;
+    background-color: #00a54f;
+    border: none;
+  }
